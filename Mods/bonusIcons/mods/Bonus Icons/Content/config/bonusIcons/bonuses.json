@@ -1,5 +1,4 @@
 //TODO: selector-based config
-// SECONDARY_SKILL_PREMY
 // school immunities
 // LEVEL_SPELL_IMMUNITY
 
@@ -20,19 +19,19 @@
 		}
 	},
 
-	"core:AIR_IMMUNITY":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/E_SPAIR1"
-		}
-	},
-
 	"core:ATTACKS_ALL_ADJACENT":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/E_ROUND"
+		}
+	},
+
+	"core:BLOCKS_RANGED_RETALIATION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/RANGEDBLOCK"
 		}
 	},
 
@@ -49,14 +48,6 @@
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/Catapult"
-		}
-	},
-	
-	"core:CATAPULT_EXTRA_SHOTS":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/Catapult2"
 		}
 	},
 
@@ -84,22 +75,6 @@
 		}
 	},
 
-	"core:DAEMON_SUMMONING":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/RiseDemons"
-		}
-	},
-
-	"core:DARKNESS":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/darkfog"
-		}		
-	},
-
 	"core:DEATH_STARE":
 	{
 		"graphics":
@@ -116,6 +91,23 @@
 		}
 	},
 
+	"core:DESTRUCTION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/DESTROYER"
+		}
+	},
+	
+	"core:DISINTEGRATE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/DISINTEGRATE"
+		}
+
+	},
+	
 	"core:DOUBLE_DAMAGE_CHANCE":
 	{
 		"graphics":
@@ -129,27 +121,6 @@
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/E_DRAGON"
-		}
-	},
-
-	"core:DIRECT_DAMAGE_IMMUNITY":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/E_SPDIR"
-		}
-	},
-
-	"core:DISGUISED":
-	{
-		"hidden": true
-	},
-
-	"core:EARTH_IMMUNITY":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/E_SPEATH1"
 		}
 	},
 
@@ -169,6 +140,14 @@
 		}
 	},
 
+	"core:ENEMY_ATTACK_REDUCTION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_RATT"
+		}
+	},
+
 	"core:ENEMY_DEFENCE_REDUCTION":
 	{
 		"graphics":
@@ -177,22 +156,22 @@
 		}
 	},
 
-	"core:FIRE_IMMUNITY":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/E_SPFIRE1"
-		}
-	},
-
 	"core:FIRE_SHIELD":
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/E_FIRE"
+			"icon":  "zvs/Lib1.res/FireShield"
 		}
 	},
-	
+
+	"core:FIRST_STRIKE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/FIRSTSTRIKE"
+		}
+	},
+
 	"core:FEAR":
 	{
 		"graphics":
@@ -209,13 +188,20 @@
 		}
 	},
 
+	"core:FEROCITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/Ferocity"
+		}
+	},
+
 	"core:FLYING":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/E_FLY"
 		}
-
 	},
 
 	"core:FREE_SHOOTING":
@@ -224,25 +210,16 @@
 		{
 			"icon":  "zvs/Lib1.res/E_SHOOTA"
 		}
-
-	},
-
-	"core:FULL_HP_REGENERATION":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/E_TROLL"
-		}
 	},
 
 	"core:GARGOYLE":
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/Gargoyle"	
+			"icon":  "zvs/Lib1.res/NonLiving"	// Just use the NonLiving icon for now
 		}
 	},
-	
+
 	"core:GENERAL_DAMAGE_REDUCTION":
 	{
 		"graphics":
@@ -275,6 +252,14 @@
 		}
 	},
 	
+	"core:INVINCIBLE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/INVINCIBLE"
+		}
+	}, 
+	
 	"core:JOUSTING":
 	{
 		"graphics":
@@ -283,38 +268,14 @@
 		}
 	},
 
-	"core:KING1":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/E_KING1"
-		}
-	},
-
-	"core:KING2":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/E_KING2"
-		}
-	},
-
-	"core:KING3":
+	"core:KING":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/E_KING3"
 		}
 	},
-
-	"core:LEVEL_SPELL_IMMUNITY":
-	{
-		"graphics":
-		{
-			"icon":  ""
-		}
-	},
-
+	
 	"core:LIFE_DRAIN":
 	{
 		"graphics":
@@ -322,12 +283,12 @@
 			"icon":  "zvs/Lib1.res/DrainLife"
 		}
 	},
-	
+
 	"core:LIMITED_SHOOTING_RANGE":
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/LIM_SHOOT"
+			"icon":  "zvs/Lib1.res/E_SHOOT"
 		}
 	},
 
@@ -371,11 +332,6 @@
 		}
 	},
 
-	"core:NONE":
-	{
-		"hidden": true
-	},
-
 	"core:NO_DISTANCE_PENALTY":
 	{
 		"graphics":
@@ -396,23 +352,10 @@
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/NEUTRALMORALE"
+			"icon":  "zvs/Lib1.res/E_MORAL"
 		}
 	},
-//	"BLOCK_MORALE":
-//	{
-//		"graphics":
-//		{
-//			"icon":  "zvs/Lib1.res/NEGATIVEMORALE"
-//		}
-//	},	
-//	"BLOCK_LUCK":
-//	{
-//		"graphics":
-//		{
-//			"icon":  "zvs/Lib1.res/NEGATIVELUCK"
-//		}
-//	},	
+	
 	"core:NO_WALL_PENALTY":
 	{
 		"graphics":
@@ -421,16 +364,11 @@
 		}
 	},
 
-	"core:NO_TERRAIN_PENALTY":
-	{
-		"hidden": true
-	},
-
 	"core:NON_LIVING":
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/E_MORAL"
+			"icon":  "zvs/Lib1.res/NonLiving"
 		}
 	},
 
@@ -439,6 +377,14 @@
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/RandomBoost"
+		}
+	},
+	
+	"core:RANGED_RETALIATION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/RANGEDCOUNTER"
 		}
 	},
 
@@ -466,11 +412,27 @@
 		}
 	},
 
+	"core:REVENGE":
+	{
+		"graphics":
+		{
+			"icon": "zvs/Lib1.res/Revenge"
+		}
+	},
+
 	"core:SHOOTER":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/E_SHOOT"
+		}
+	},
+
+	"core:SHOOTS_ALL_ADJACENT":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/AREASHOT"
 		}
 	},
 	
@@ -538,11 +500,27 @@
 		}
 	},
 
+	"core:SUMMON_GUARDIANS":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/SUMMONGUARDS"
+		}
+	},
+
 	"core:TWO_HEX_ATTACK_BREATH":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/E_BREATH"
+		}
+	},
+
+	"core:PRISM_HEX_ATTACK_BREATH":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/PrismBreath"
 		}
 	},
 
@@ -574,70 +552,16 @@
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/E_RETAIL2"
+			"icon":  "zvs/Lib1.res/E_RETAIL1"
 		}
-	},
-
-	"core:VISIONS":
-	{
-		"hidden": true
 	},
 	
-	"core:WATER_IMMUNITY":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/E_SPWATER1"
-		}
-	},
-	"core:SHOOTS_ALL_ADJACENT":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/AREASHOT"
-		}
-	},
-	"core:DESTRUCTION":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/DESTROYER"
-		}
-	},
-	"core:RANGED_RETALIATION":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/RANGEDCOUNTER"
-		}
-	},
-	"core:BLOCKS_RANGED_RETALIATION":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/RANGEDBLOCK"
-		}
-	},
-	"core:FIRST_STRIKE":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/FIRSTSTRIKE"
-		}
-	},
 	"core:WIDE_BREATH":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/MEGABREATH"
 		}
-	},	
-	"core:SUMMON_GUARDIANS":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/SUMMONGUARDS"
-		}
-	}	
+	}
 }
 
