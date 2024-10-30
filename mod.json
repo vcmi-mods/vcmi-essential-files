@@ -1,12 +1,13 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.5.8",
+	"version" : "3.6.0",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
+		"3.6.0" : ["Removed deprecated true types fonts mod, due to being integrated in vcmi", "Removed unused files"],
 		"3.5.9" : ["New bonuses icons by Ben Yan"],
 		"3.5.8" : ["Added compatibility to Arrow Towers Icons submod"],
 		"3.5.7" : ["Czech translation by George King"],
