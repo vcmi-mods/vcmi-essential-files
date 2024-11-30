@@ -99,7 +99,7 @@
 		// Adventure map buttons
 		{
 			"type": "adventureMapContainer",
-			"name" : "buttonsContainer",
+			"name" : "buttonsContainer1",
 			"hideWhen" : "worldViewMode",
 			"area": { "top": 196, "right" : 57, "width" : 64, "height" : 192 },
 			"items" : [
@@ -226,7 +226,7 @@
 		// Adventure map buttons for small (600-664) vertical resolution
 		{
 			"type": "adventureMapContainer",
-			"name" : "buttonsContainer",
+			"name" : "buttonsContainer2",
 			"hideWhen" : "worldViewMode",
 			"area": { "top": 196, "right" : 57, "width" : 64, "height" : 192 },
 			"exists" : { "heightMax" : 664 },
@@ -263,7 +263,7 @@
 		// Adventure map buttons for large (664+) vertical resolution
 		{
 			"type": "adventureMapContainer",
-			"name" : "buttonsContainer",
+			"name" : "buttonsContainer3",
 			"hideWhen" : "worldViewMode",
 			"area": { "top": 196, "right" : 57, "width" : 64, "height" : 224 },
 			"exists" : { "heightMin" : 664 },
