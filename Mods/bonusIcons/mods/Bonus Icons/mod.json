@@ -6,12 +6,15 @@
 	"version" : "0.81",
 	"modType" : "Graphical",
 
-	"bonuses" :
-	[
+	"bonuses" : [
 		"config/bonusIcons/bonuses.json"
 	],
 	"czech" : {
 		"name" : "Bonusové ikony",
 		"description" : "Bonusové ikony pro VCMI."
+	},
+	"polish" : {
+		"name" : "Ikony Bonusów",
+		"description" : "Ikony bonusów dla VCMI."
 	}
 }

@@ -1,25 +1,25 @@
 {
 	"name" : "VCMI Quick Exchange",
 	"description" : "Quick Exchange related resources",
-
 	"version" : "1.0",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 
-	"filesystem":
-	{
-		"DATA/" :
-		[
+	"filesystem" : {
+		"DATA/" : [
 			{"type" : "dir",  "path" : "/Data"}
 		],
-		"SPRITES/":
-		[
+		"SPRITES/" : [
 			{"type" : "dir",  "path" : "/Sprites"}
 		]
 	},
 	"czech" : {
 		"name" : "Rychlá výměna VCMI",
 		"description" : "Rychlá výměna zdrojů."
+	},
+	"polish" : {
+		"name" : "Szybka wymiana VCMI",
+		"description" : "Szybka wymiana surowców w VCMI"
 	}
 }
