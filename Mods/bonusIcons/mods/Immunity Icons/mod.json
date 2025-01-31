@@ -6,14 +6,17 @@
 	"version" : "0.6",
 	"modType" : "Graphical",
 
-	"spells" :
-	[
+	"spells" : [
 		"spellImmunityIcons.json",
 		"abilityImmunityIcons.json"
 	],
 	"czech" : {
 		"name" : "Ikony imunity vůči kouzlům",
 		"description" : "Ikony zobrazující imunitu vůči kouzlům pro VCMI."
+	},
+	"polish" : {
+		"name" : "Ikony odporności na czary",
+		"description" : "Ikony odporności na czary dla VCMI"
 	}
 
 }

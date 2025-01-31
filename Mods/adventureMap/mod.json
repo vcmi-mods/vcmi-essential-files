@@ -8,5 +8,9 @@
 	"czech" : {
 		"name" : "Tlačítko pro znovunavštívení objektu",
 		"description" : "Přidává tlačítko pro opětovnou návštěvu objektu na rozhraní dobrodružné mapy"
+	},
+	"polish" : {
+		"name" : "Przycisk ponownego odwiedzenia obiektu",
+		"description" : "Dodaje przycisk umożliwiający ponowne odwiedzenie aktualnego obiektu na interfejsie mapy przygód"
 	}
 }

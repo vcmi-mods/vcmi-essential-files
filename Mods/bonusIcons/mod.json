@@ -8,5 +8,9 @@
 	"czech" : {
 		"name" : "Andruidovy Bonusové ikony",
 		"description" : "Bonusové ikony pro VCMI."
+	},
+	"polish" : {
+		"name" : "Ikony bonusów Andruids",
+		"description" : "Ikony bonusów dla VCMI"
 	}
 }
